@@ -23,7 +23,9 @@ pipeline{
             }
             stage('Release') {
                 steps {
-                    echo 'Releasing'
+                   node ("abc") {
+                     echo 'Releasing'
+                   }
                 }
             }
         }
