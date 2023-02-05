@@ -1,5 +1,4 @@
-pipeline {
-    node ("abc"){
+node ("abc"){
         stages {
             stage('Hello') {
                 steps {
@@ -27,5 +26,4 @@ pipeline {
                 }
             }
         }
-    }
 }
