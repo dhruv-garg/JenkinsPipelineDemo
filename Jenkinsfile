@@ -1,4 +1,5 @@
-node ("abc"){
+pipeline{
+   agent any
         stages {
             stage('Hello') {
                 steps {
